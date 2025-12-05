@@ -1,0 +1,17 @@
+[client]
+max_retries = 5
+
+[results]
+#persist_by_default = true
+# default_storage_block = "local-file-system/default"
+# default_storage_block = "s3-bucket/my-bucket"
+
+[tasks]
+#runner.thread_pool_max_workers = 50
+# for a weak machine - adjust based on your system resources (default 50 is good for most cases)
+#runner.thread_pool_max_workers = 50
+#runner.thread_pool_max_workers = 3
+
+
+[logging]
+level = "INFO"
